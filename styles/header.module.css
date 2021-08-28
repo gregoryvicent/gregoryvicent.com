@@ -1,0 +1,24 @@
+.box_icons {
+  display: flex;
+}
+
+.icons {
+  display: flex;
+  margin: 0 .5vw;
+}
+
+.icons i {
+  margin: auto 0;
+  font-size: 2rem;
+  color: #000;
+  transition: all .3s ease;
+}
+
+.icons i:hover {
+  color: #DF2E2E;
+  font-size: 2.2rem;
+}
+
+.logo {
+  cursor: pointer;
+}
