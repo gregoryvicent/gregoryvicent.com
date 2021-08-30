@@ -5,9 +5,9 @@ import style from '../styles/nav.module.css'
 export default function Nav({ className }) {
   return (
     <nav className={ style.nav }>
-      <Link href="/portafolio">
+      <Link href="/juguetes">
         <div className={ className } >
-          <h4 className={ style.nav_title }>Portafolio &#8658;</h4>
+          <h4 className={ style.nav_title }>Juguetes &#8658;</h4>
           <p className={ style.nav_text }>Mis trabajos, proyectos y juguetes más destacados referentes al mundo del código 👾</p>
         </div>
       </Link>

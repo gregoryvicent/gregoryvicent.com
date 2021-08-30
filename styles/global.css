@@ -11,6 +11,12 @@ body {
   background-color: #f8f8f8;
 }
 
+h1,
+h2,
+h3 {
+  margin: 2rem 0;
+}
+
 h1 {
   font-size: 3.5rem;
   text-align: center;
@@ -29,7 +35,13 @@ h4 {
 }
 
 a {
+  color: #DF2E2E;
   text-decoration: none;
+  transition: all .3s ease;
+}
+
+a:hover {
+  color: #fd7777;
 }
 
 p {
@@ -46,6 +58,10 @@ hr {
 article {
   text-align: center;
   line-height: 40px;
+}
+
+ul {
+  list-style: none;
 }
 
 @media (max-width: 500px) {

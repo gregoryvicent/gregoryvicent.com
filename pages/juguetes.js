@@ -2,13 +2,13 @@ import Head from 'next/head'
 
 import Layout from "../components/layout"
 
-export default function Portafolio() {
+export default function Juguetes() {
   return (
     <Layout>
       <Head>
-        <title>Gregory Vicent | Portafolio</title>
+        <title>Gregory Vicent | Juguetes</title>
       </Head>
-      <h1>Portafolio</h1>
+      <h1>Juguetes</h1>
     </Layout>
   )
 }
