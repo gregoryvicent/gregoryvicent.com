@@ -1,8 +1,9 @@
+// Next.js imports
 import Image from "next/image";
 import Link from "next/link";
-
+// Styles imports
 import style from "../styles/header.module.css";
-
+// Header component in website top
 export default function Header({ className }) {
   return (
     <header className={ className }>

@@ -1,11 +1,12 @@
+// Next.js imports
 import Head from "next/head";
 import Image from "next/image"
 import Link from "next/link"
-
+// My components imports
 import Layout from "../components/layout";
-
+// Style imports
 import style from "../styles/home.module.css"
-
+// Representation of the Home section
 export default function Home() {
   return (
     <Layout home>

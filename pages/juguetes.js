@@ -1,7 +1,8 @@
+// Next.js imports
 import Head from 'next/head'
-
+// My components imports
 import Layout from "../components/layout"
-
+// Representation of the Juguetes section
 export default function Juguetes() {
   return (
     <Layout>

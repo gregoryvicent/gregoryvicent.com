@@ -1,7 +1,8 @@
+// Next.js imports
 import Link from 'next/link'
-
+// Styles imports
 import style from '../styles/nav.module.css'
-
+// Nav component that represent the right menu
 export default function Nav({ className }) {
   return (
     <nav className={ style.nav }>

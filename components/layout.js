@@ -1,14 +1,15 @@
+// React.js and Next.js imports
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
 import Image from 'next/image'
-
+// My components imports
 import Header from './header'
 import Nav from './nav'
-
+// Styles imports
 import style from '../styles/layout.module.css'
 import styles from '../styles/nav.module.css'
-
+// Layout component that represent all components same in each part of the website
 export default function Layout({ children, home }) {
   const [classNav, setClassNav] = useState( styles.nav_item )
   const [classNavBox, setClassNavBox] = useState( "" )
@@ -21,7 +22,7 @@ export default function Layout({ children, home }) {
       alt="Burger Menu"
     /> 
   )
-
+  // Menu button controller on movil version 
   function handleClick() {
     classNavBox !== style.active
       ? setClassNavBox( style.active ) 
@@ -43,7 +44,7 @@ export default function Layout({ children, home }) {
       )
     )
   }
-
+  // Screen width recognition
   useEffect(() => {
     window.screen.width < 800 
         ? setClassNav( styles.nav_active ) 
@@ -79,7 +80,7 @@ export default function Layout({ children, home }) {
       <button onClick={ handleClick } id="menu-button" className={ `${style.menu_button} ${classButton}` }>
         { textButton }
       </button>
-
+      
       { !home ? (
           <Link href="/">
             <p className={ style.back_home } >&#8656; Home</p>

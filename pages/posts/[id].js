@@ -1,10 +1,11 @@
+// Next.js imports
 import Head from 'next/head'
-
+// My components imports
 import Layout from '../../components/layout'
 import Date from '../../components/date'
-
+// Function that return the blog posts
 import { getAllPostIds, getPostData } from '../../lib/posts'
-
+// Style imports
 import utilStyles from '../../styles/utils.module.css'
 
 export async function getStaticProps({ params }) {
@@ -23,7 +24,7 @@ export async function getStaticPaths() {
     fallback: false
   }
 }
-
+// Post component
 export default function Post({ postData }) {
   return (
     <Layout>

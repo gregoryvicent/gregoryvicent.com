@@ -1,11 +1,12 @@
+// Next.js imports
 import Head from "next/head";
 import Link from "next/link";
-
+// My components imports
 import Date from "../components/date";
 import Layout from "../components/layout";
-
+// Styles imports
 import utilStyles from "../styles/utils.module.css";
-
+// Function that return the blog posts
 import { getSortedPostsData } from "../lib/posts";
 
 export async function getStaticProps() {
@@ -17,7 +18,8 @@ export async function getStaticProps() {
   };
 }
 
-export default function Home({ allPostsData }) {
+// Representation of the Blog section
+export default function Blog({ allPostsData }) {
   return (
     <Layout>
 
