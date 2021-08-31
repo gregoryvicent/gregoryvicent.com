@@ -9,7 +9,7 @@ export default function Juguetes() {
       <Head>
         <title>Gregory Vicent | Juguetes</title>
       </Head>
-      <h1>Juguetes</h1>
+      <h1>Juguetes 🤖</h1>
     </Layout>
   )
 }

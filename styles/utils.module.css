@@ -43,6 +43,15 @@
   margin: 0;
 }
 
+.list li:nth-child(even){
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.list a, .list small {
+  margin-left: 1rem;
+}
+
 .listItem {
   margin: 0 0 1.25rem;
 }

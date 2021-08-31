@@ -10,7 +10,7 @@ import utilStyles from "../styles/utils.module.css";
 import { getSortedPostsData } from "../lib/posts";
 
 export async function getStaticProps() {
-  const allPostsData = getSortedPostsData();
+  const allPostsData = await getSortedPostsData();
   return {
     props: {
       allPostsData,
@@ -26,7 +26,7 @@ export default function Blog({ allPostsData }) {
       <Head>
         <title>Gregory Vicent | Blog</title>
       </Head>
-      <h1>Blog</h1>
+      <h1>Blog 😄</h1>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <ul className={utilStyles.list}>
