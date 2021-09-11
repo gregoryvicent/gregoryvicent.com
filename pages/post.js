@@ -19,13 +19,13 @@ export async function getStaticProps() {
 }
 
 // Representation of the Blog section
-export default function Blog({ allPostsData }) {
+export default function Post({ allPostsData }) {
   return (
     <Layout>
       <Head>
-        <title>Gregory Vicent | Blog</title>
+        <title>Gregory Vicent | Posts</title>
       </Head>
-      <h1>Blog 😄</h1>
+      <h1>Posts 😄</h1>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <ul className={utilStyles.list}>

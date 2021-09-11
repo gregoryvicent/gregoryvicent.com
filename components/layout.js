@@ -61,12 +61,14 @@ export default function Layout({ children, home }) {
     <div className={style.container}> 
       <Head>
         <link rel="icon" href="/LOGO_negative.svg" />
+        <link rel="canonical" href="https://gregoryvicent.com/"></link>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"	integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossOrigin="anonymous" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />     
+        <meta name="author" content="Gregory Vicent" />
       </Head>
 
       <Header className={ style.header } />

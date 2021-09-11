@@ -1,0 +1,44 @@
+.gridContent {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-auto-flow: row;
+  gap: 0.5rem;
+}
+
+.figure {
+  justify-self: center;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+  background-color: #fff;
+  border: solid 1px rgb(192, 192, 192);
+  max-width: 100px;
+  padding: 1rem;
+  border-radius: 15px;
+  transition: all .5s ease;
+}
+
+.figure:hover {
+  border: #DF2E2E 1px solid;
+  color: #DF2E2E;
+}
+
+.figcaption {
+  margin: 0.5rem auto;
+}
+
+@media (max-width: 550px) {
+  .gridContent {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 350px) {
+  .gridContent {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
