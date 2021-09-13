@@ -1,5 +1,5 @@
 ---
-title: 'Two Forms of Pre-rendering'
+title: 'Tutorials 1'
 date: '2020-01-01'
 description: 'This is a description'
 keywords: 'next.js, pre-rendering, js'

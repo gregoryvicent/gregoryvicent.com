@@ -34,7 +34,7 @@ export default function Home() {
         </p>
         <br />
         <p>
-          Lo sé, este podría parecer un típico portafolio de trabajo más, y siendo honesto comenzó como eso, sin embargo, mientras desarrollaba este espacio en internet decidí dar un giro en el objetivo del proyecto para crear algo que ayude a los ademas y no unicamente a mis intereses. 
+          Lo sé, este podría parecer un típico portafolio de trabajo, y siendo honesto comenzó como eso, sin embargo, mientras desarrollaba este espacio en internet decidí dar un giro en el objetivo del proyecto para crear algo que ayude a los ademas y no unicamente a mis intereses. 
         </p>
         <br />
         <p>
@@ -54,7 +54,7 @@ export default function Home() {
         </p>
         <br/>
         <p>
-          Con esta breve introducción dejo que sigas explorando 🧭 el contenido que se alberga aquí, pero antes te invito a que leas <Link href="/"><a>este post</a></Link> donde con mayor lujo de detalle explico este proyecto.
+          Con esta breve introducción dejo que sigas explorando 🧭 el contenido que se alberga aquí.
         </p>
       </article>
 
@@ -65,11 +65,11 @@ export default function Home() {
         </p>
         <br />
         <p>
-          El objetivo de esta versión era tener un producto mínimo viable que fuese funcional y que agradara a nuestros hermosos 😍 usuarios.
+          El objetivo de esta versión era tener un producto mínimo viable que fuese funcional y que agradara a nuestra hermosa 😍 comunidad.
         </p>
         <br/>
         <p>
-          Como se dijo antes este es un proyecto que continuara creciendo e integrando más funcionalidades para la comunidad que aquí nazca, pero de momento nos centraremos en mejorar lo máximo posible las bases principales que ya se tienen:
+          Como se dijo antes este es un proyecto que continuara creciendo e integrando más funcionalidades, pero de momento nos centraremos en mejorar lo máximo posible las bases principales que ya se tienen:
         </p>
         <br/>
         <ul>

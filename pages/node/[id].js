@@ -8,7 +8,7 @@ import { getAllIds, getData } from '../../lib/handleFS'
 // Style imports
 import utilStyles from '../../styles/utils.module.css'
 
-var filesDir = 'posts'
+var filesDir = 'tutorials/node'
 
 export async function getStaticProps({ params }) {
   const postData = await getData(params.id, filesDir)

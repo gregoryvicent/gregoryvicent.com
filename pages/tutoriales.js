@@ -18,80 +18,18 @@ export default function Tutoriales({ allTutorialsData }) {
 
       <section className={styles.gridContent}>
 
-      <Link href="/post?subject=node">
-        <figure className={styles.figure}>
-          <Image 
-            src="/img/node.svg"
-            alt="Node.js Icon"
-            width="50"
-            height="50"
-          />
-          <figcaption className={styles.figcaption}>Node.JS</figcaption>
-        </figure>
-      </Link>
-
-      <Link href="/">
-        <figure className={styles.figure}>
-          <Image 
-            src="/img/node.svg"
-            alt="Node.js Icon"
-            width="50"
-            height="50"
-          />
-          <figcaption className={styles.figcaption}>Node.JS</figcaption>
-        </figure>
-      </Link>
-
-      <Link href="/">
-        <figure className={styles.figure}>
-          <Image 
-            src="/img/node.svg"
-            alt="Node.js Icon"
-            width="50"
-            height="50"
-          />
-          <figcaption className={styles.figcaption}>Node.JS</figcaption>
-        </figure>
-      </Link>
-
-      <Link href="/">
-        <figure className={styles.figure}>
-          <Image 
-            src="/img/node.svg"
-            alt="Node.js Icon"
-            width="50"
-            height="50"
-          />
-          <figcaption className={styles.figcaption}>Node.JS</figcaption>
-        </figure>
-      </Link>
-
- 
-      <Link href="/">
-        <figure className={styles.figure}>
-          <Image 
-            src="/img/node.svg"
-            alt="Node.js Icon"
-            width="50"
-            height="50"
-          />
-          <figcaption className={styles.figcaption}>Node.JS</figcaption>
-        </figure>
-      </Link>
-
- 
-      <Link href="/">
-        <figure className={styles.figure}>
-          <Image 
-            src="/img/node.svg"
-            alt="Node.js Icon"
-            width="50"
-            height="50"
-          />
-          <figcaption className={styles.figcaption}>Node.JS</figcaption>
-        </figure>
-      </Link>
-
+        <Link href="/tecnologias/node">
+          <figure className={styles.figure}>
+            <Image 
+              src="/img/node.svg"
+              alt="Node.js Icon"
+              width="50"
+              height="50"
+            />
+            <figcaption className={styles.figcaption}>Node.JS</figcaption>
+          </figure>
+        </Link>
+        
       </section>
     </Layout>
   );

@@ -1,5 +1,5 @@
 ---
-title: 'When to Use Static Generation v.s. Server-side Rendering'
+title: 'Tutorials 2'
 date: '2020-01-02'
 description: 'This is a description'
 keywords: 'next.js, pre-rendering, js'
