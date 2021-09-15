@@ -12,6 +12,7 @@ export default function Home() {
     <Layout home>
       <Head>
         <title>Gregory Vicent | Home</title>
+        <meta name="description" content="Bienvenido a gregoryvicent.com un pequeño espacio en la web donde se comparte información sobre diversas tecnología relacionadas con el mundo del código, realizamos proyectos interesantes y búscamos crear una comunidad que comparta este amor por las ciencias de la información."/>
       </Head>
 
       <div className={style.avatar_box}>
@@ -54,7 +55,7 @@ export default function Home() {
         </p>
         <br/>
         <p>
-          Con esta breve introducción dejo que sigas explorando 🧭 el contenido que se alberga aquí, y si quieres conocer un poco más de mi historia seria un honor que leyeras <Link href="posts/gregory-vicent">este articulo</Link> del blog.
+          Con esta breve introducción dejo que sigas explorando 🧭 el contenido que se alberga aquí, y si quieres conocer un poco más de mi historia seria un honor que leyeras <Link href="/posts/gregory-vicent">este articulo</Link> del blog.
         </p>
       </article>
 
