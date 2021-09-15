@@ -12,7 +12,7 @@ export default function Home() {
     <Layout home>
       <Head>
         <title>Gregory Vicent | Home</title>
-        <meta name="description" content="Bienvenido a gregoryvicent.com un pequeño espacio en la web donde se comparte información sobre diversas tecnología relacionadas con el mundo del código, realizamos proyectos interesantes y búscamos crear una comunidad que comparta este amor por las ciencias de la información."/>
+        <meta name="description" content="Bienvenido a gregoryvicent.com un pequeño espacio en la web donde podras descubrir y aprender sobre el mundo del código."/>
       </Head>
 
       <div className={style.avatar_box}>
