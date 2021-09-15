@@ -54,7 +54,7 @@ export default function Home() {
         </p>
         <br/>
         <p>
-          Con esta breve introducción dejo que sigas explorando 🧭 el contenido que se alberga aquí, y si quieres conocer un poco más de mi historia seria un honor que leyeras <Link href="posts/soy_gregory_vicent">este articulo</Link> del blog.
+          Con esta breve introducción dejo que sigas explorando 🧭 el contenido que se alberga aquí, y si quieres conocer un poco más de mi historia seria un honor que leyeras <Link href="posts/gregory-vicent">este articulo</Link> del blog.
         </p>
       </article>
 
