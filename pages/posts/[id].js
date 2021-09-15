@@ -2,6 +2,7 @@
 import Head from 'next/head'
 // My components imports
 import Layout from '../../components/layout'
+import Footer from '../../components/footer'
 import Date from '../../components/date'
 // Function that return the blog posts
 import { getAllIds, getData } from '../../lib/handleFS'
@@ -36,12 +37,15 @@ export default function Post({ postData }) {
         <meta name="keywords" content={postData.keywords} />
       </Head>
       <article>
-        <h1 className={utilStyles.headingXl}>{postData.title}</h1>
-        <div className={utilStyles.lightText}>
-          <Date dateString={postData.date} />
+        <div className={utilStyles.titleBox}>
+          <h1 className={utilStyles.headingXl}>{postData.title}</h1>
+          <div className={utilStyles.lightText}>
+            <Date dateString={postData.date} />
+          </div>
         </div>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
+      <Footer />
     </Layout>
   )
 }

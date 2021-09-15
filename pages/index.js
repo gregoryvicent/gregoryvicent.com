@@ -38,7 +38,7 @@ export default function Home() {
         </p>
         <br />
         <p>
-          No soy un guru del software ni empece a programar a los 9 años, soy un joven adulto como cualquier otro. Un adulto joven que se enamoro 💕 irremediablemente como pasa tanto en esta edad, solo que yo me encontré con el amor al código 🧑‍💻.
+          No soy un gurú del software ni empece a programar a los 9 años, soy un joven adulto como cualquier otro. Un adulto joven que se enamoro 💕 irremediablemente como pasa tanto en esta edad, solo que yo me encontré con el amor al código 🧑‍💻.
         </p>
         <br />
         <p>
@@ -54,7 +54,7 @@ export default function Home() {
         </p>
         <br/>
         <p>
-          Con esta breve introducción dejo que sigas explorando 🧭 el contenido que se alberga aquí.
+          Con esta breve introducción dejo que sigas explorando 🧭 el contenido que se alberga aquí, y si quieres conocer un poco más de mi historia seria un honor que leyeras <Link href="posts/soy_gregory_vicent">este articulo</Link> del blog.
         </p>
       </article>
 
