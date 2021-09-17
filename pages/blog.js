@@ -23,7 +23,7 @@ export default function Blog({ allPostsData }) {
   return (
     <Layout>
       <Head>
-        <title>Gregory Vicent | Blog</title>
+        <title>Blog | Gregory Vicent</title>
       </Head>
       <h1>Blog 😄</h1>
 

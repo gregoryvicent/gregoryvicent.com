@@ -1,5 +1,6 @@
 // Next.js imports
 import Head from "next/head";
+import Image from "next/image";
 import Link from "next/link";
 // My components imports
 import Date from "../../components/date";
@@ -10,7 +11,7 @@ import utilStyles from "../../styles/utils.module.css";
 import { getSortedData } from "../../lib/handleFS";
 
 export async function getStaticProps() {
-  const allPostsData = await getSortedData('tutorials/node');
+  const allPostsData = await getSortedData('tutorials/linux');
   return {
     props: {
       allPostsData,
@@ -19,19 +20,29 @@ export async function getStaticProps() {
 }
 
 // Representation of the Blog section
-export default function Node({ allPostsData }) {
+export default function Linux({ allPostsData }) {
   return (
     <Layout>
       <Head>
-        <title>Gregory Vicent | Node</title>
+        <title>Linux | Gregory Vincet</title>
       </Head>
-      <h1>Node.JS 😄</h1>
+      
+      <div className={utilStyles.header}>
+        <Image
+          src="/img/linux.svg"
+          alt="Linux Icon"
+          title="Linux"
+          width="100"
+          height="100"
+        />
+        <h1 className={utilStyles.header_title}>Linux</h1>
+      </div>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
-              <Link href={`/node/${id}`}>
+              <Link href={`/linux/${id}`}>
                 <a>{title}</a>
               </Link>
               <br />

@@ -12,21 +12,21 @@ export default function Tutoriales({ allTutorialsData }) {
   return (
     <Layout>
       <Head>
-        <title>Gregory Vicent | Tutoriales</title>
+        <title>Tutoriales | Gregory Vicent</title>
       </Head>
       <h1>Tutoriales 🦾</h1>
 
       <section className={styles.gridContent}>
 
-        <Link href="/tecnologias/node">
+        <Link href="/tecnologias/linux">
           <figure className={styles.figure}>
             <Image 
-              src="/img/node.svg"
-              alt="Node.js Icon"
+              src="/img/linux.svg"
+              alt="Linux Icon"
               width="50"
               height="50"
             />
-            <figcaption className={styles.figcaption}>Node.JS</figcaption>
+            <figcaption className={styles.figcaption}>Linux</figcaption>
           </figure>
         </Link>
         

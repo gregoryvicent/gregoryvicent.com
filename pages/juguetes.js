@@ -7,7 +7,7 @@ export default function Juguetes() {
   return (
     <Layout>
       <Head>
-        <title>Gregory Vicent | Juguetes</title>
+        <title>Juguetes | Gregory Vicent</title>
       </Head>
       <h1>Juguetes 🤖</h1>
 

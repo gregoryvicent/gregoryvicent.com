@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <Layout home>
       <Head>
-        <title>Gregory Vicent | Home</title>
+        <title>Home | Gregory Vicent</title>
         <meta name="description" content="Bienvenido a gregoryvicent.com un pequeño espacio en la web donde podras descubrir y aprender sobre el mundo del código."/>
       </Head>
 

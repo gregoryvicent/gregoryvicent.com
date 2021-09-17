@@ -8,7 +8,7 @@ import { getAllIds, getData } from '../../lib/handleFS'
 // Style imports
 import utilStyles from '../../styles/utils.module.css'
 
-var filesDir = 'tutorials/node'
+var filesDir = 'tutorials/linux'
 
 export async function getStaticProps({ params }) {
   const postData = await getData(params.id, filesDir)
@@ -36,9 +36,11 @@ export default function Post({ postData }) {
         <meta name="keywords" content={postData.keywords} />
       </Head>
       <article>
-        <h1 className={utilStyles.headingXl}>{postData.title}</h1>
-        <div className={utilStyles.lightText}>
-          <Date dateString={postData.date} />
+        <div className={utilStyles.titleBox}>
+          <h1 className={utilStyles.headingXl}>{postData.title}</h1>
+          <div className={utilStyles.lightText}>
+            <Date dateString={postData.date} />
+          </div>
         </div>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
