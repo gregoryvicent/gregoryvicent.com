@@ -75,3 +75,7 @@
 .titleBox {
   margin: 4rem 0;
 }
+
+.dataContent img {
+  width: 90%;
+}

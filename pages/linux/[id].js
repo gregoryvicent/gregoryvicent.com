@@ -3,6 +3,7 @@ import Head from 'next/head'
 // My components imports
 import Layout from '../../components/layout'
 import Date from '../../components/date'
+import Footer from '../../components/footer'
 // Function that return the blog posts
 import { getAllIds, getData } from '../../lib/handleFS'
 // Style imports
@@ -42,8 +43,9 @@ export default function Post({ postData }) {
             <Date dateString={postData.date} />
           </div>
         </div>
-        <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+        <div className={utilStyles.dataContent} dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
+      <Footer />
     </Layout>
   )
 }

@@ -64,6 +64,18 @@ ul {
   list-style: none;
 }
 
+code {
+  background-color: #fff;
+  padding: 1rem;
+  margin-top: 2rem;
+  border-left: solid 2px #000;
+  border-radius: 15px;
+  font-size: 1rem;
+  font-weight: 100;
+  font-family: 'Share Tech Mono', monospace;
+  display: block;
+}
+
 @media (max-width: 500px) {
   h1 {
     font-size: 3rem;

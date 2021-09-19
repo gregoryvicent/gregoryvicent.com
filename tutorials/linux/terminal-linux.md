@@ -2,7 +2,7 @@
 title: '¿Por qué usar la linea de comandos?'
 date: '2021-09-16'
 description: 'En el mundo del desarrollo de software Linux es el entorno que predomina, es por esto que se hace imprescindible aprender a manejar correctamente la terminal o linea de comandos y conocer todas sus posibilidades.'
-keywords: 'gregory vicent, gregoryvicent.com, gregory vicent presentación, primer post, gregory vicent primer post, quien es gregory vicent'
+keywords: 'gregory vicent, gregoryvicent.com, terminal linux, como usar la terminal de linux, tutorial terminal de linux, tutorial linea de comandos linux, linea de comandos, linux, comandos unix, simbolos del sistema, por que usar la linea de comandos'
 ---
 
 Hola mi querido ser del otro lado de la pantalla, siendo este el primer post sobre Linux y su terminal que escribo me gustaría iniciar contestando una pregunta que puede surgir en la mente de todas aquellas personas que por primera vez se enfrentan a esta ventanita oscura y llena de textos extraños.
