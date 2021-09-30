@@ -24,8 +24,8 @@ export default function Home() {
             className={style.avatar}
             src="/img/gregoryvicent.jpg"
             alt="Gregory Vicent"
-            width="150"
-            height="150"
+            width="180"
+            height="180"
           />
         </div>
         <h1 className={style.title}>Gregory Vicent</h1>
