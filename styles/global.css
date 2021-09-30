@@ -9,6 +9,7 @@ body {
   font-family: 'Ubuntu', sans-serif;
   overflow-y: none;
   background-color: #f8f8f8;
+  scroll-behavior: smooth;
 }
 
 h1,
@@ -45,7 +46,7 @@ a:hover {
 }
 
 p {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
 }
 
 hr {
@@ -55,7 +56,7 @@ hr {
   width: 50%;
 }
 
-article {
+section, article {
   text-align: center;
   line-height: 40px;
 }
