@@ -20,13 +20,13 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Home | Gregory Vicent" />
         <meta property="og:description" content="Hola, soy Gregory Vicent y te doy la bienvenida a mi sitio web personal, aqui podras encontrar blogs, videos y mi propio trabajo en el mundo del código." />
-        <meta property="og:image" content="https://gregoryvicent.com/LOGO_negative.svg" />
+        <meta property="og:image" content="https://gregoryvicent.com/img/gregoryvicent.jpg" />
         <meta property="og:url" content="https://gregoryvicent.com" />
         <meta property="og:site_name" content="gregoryvicent.com" />
 
         <meta name="twitter:title" content="Home | Gregory Vicent" />
         <meta name="twitter:description" content="Hola, soy Gregory Vicent y te doy la bienvenida a mi sitio web personal, aqui podras encontrar blogs, videos y mi propio trabajo en el mundo del código." />
-        <meta name="twitter:image" content="https://gregoryvicent.com/LOGO_negative.svg" />
+        <meta name="twitter:image" content="https://gregoryvicent.com/img/gregoryvicent.jpg" />
         <meta name="twitter:site" content="@vicentgregory" />
         <meta name="twitter:creator" content="@vicentgregory" />
       </Head>
