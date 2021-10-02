@@ -87,6 +87,8 @@ export default function Home() {
       <section className={utiles.container}>
         <h2 id="proyectos">Proyectos</h2> 
 
+        <p>Algunas de las cosas que he hecho:</p>
+
         <br />
 
         <div>

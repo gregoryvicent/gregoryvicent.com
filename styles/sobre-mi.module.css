@@ -1,0 +1,49 @@
+.subtitle {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 15px;
+}
+
+.imageBox {
+  margin: 8rem 0 0 0;
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+}
+
+.image {
+  border-radius: 50%;
+}
+
+.listContact li{
+  font-size: 1.3rem;
+  font-weight: 100;
+  list-style: square;
+}
+
+.navList li {
+  list-style: square;
+}
+
+.technologyBox {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.figure {
+  margin: 2rem;
+}
+
+.figcaption {}
+
+@media (max-width: 550px) {
+  .technologyBox {
+    grid-template-columns: repeat(2, 1fr)
+  } 
+}
+
+@media (max-width: 400px) {
+  .technologyBox {
+    grid-template-columns: repeat(1, 1fr)
+  } 
+}
