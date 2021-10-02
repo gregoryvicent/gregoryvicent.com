@@ -20,7 +20,7 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Home | Gregory Vicent" />
         <meta property="og:description" content="Hola, soy Gregory Vicent y te doy la bienvenida a mi sitio web personal, aqui podras encontrar blogs, videos y mi propio trabajo en el mundo del código." />
-        <meta property="og:image" content="https://gregoryvicent.com/LOGO_negative_small.png" />
+        <meta name="image" property="og:image" content="https://gregoryvicent.com/LOGO_negative_small.png" />
         <meta property="og:url" content="https://gregoryvicent.com" />
         <meta property="og:site_name" content="gregoryvicent.com" />
 

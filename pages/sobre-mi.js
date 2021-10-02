@@ -34,7 +34,7 @@ export default function Sobre_Mi() {
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Sobre mí | Gregory Vicent" />
         <meta property="og:description" content="Aquí podras saber un poco más sobre Gregory Vicent como profesional en el mundo del desarrollo web y apasionado programador." />
-        <meta property="og:image" content="https://gregoryvicent.com/LOGO_negative_small.png" />
+        <meta name="image" property="og:image" content="https://gregoryvicent.com/LOGO_negative_small.png" />
         <meta property="og:url" content="https://gregoryvicent.com/sobre-mi" />
         <meta property="og:site_name" content="gregoryvicent.com" />
 
