@@ -92,3 +92,10 @@
   width: 90%;
 }
 
+.imageBox{
+  margin-bottom: -5vh;
+}
+
+.image {
+  border-radius: 50px;
+}

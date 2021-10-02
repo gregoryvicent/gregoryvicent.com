@@ -2,6 +2,8 @@
 title: 'Hola, soy Gregory Vicent...'
 date: '2021-09-14'
 description: 'Una breve presentación de mi personas Gregory Vicent, no soy un genio de la informática ni pretendo tener todas las repuestas pero si Gregory Vicent esta segúro de algo es que el conocimiento bien aplicado es poderoso y es eso lo que quiero transmitir.'
+fileName: 'gregory-vicent'
+image: 'gregoryvicent-banner'
 keywords: 'gregory vicent, gregoryvicent.com, gregory vicent presentación, primer post, gregory vicent primer post, quien es gregory vicent'
 ---
 
