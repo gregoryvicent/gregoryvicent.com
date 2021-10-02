@@ -30,13 +30,13 @@ export default function Blog({ allPostsData }) {
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Blog | Gregory Vicent" />
         <meta property="og:description" content="Gracias por mirar mi blog, confio en que encuentres algo que te interese entre los post que he escrito." />
-        <meta property="og:image" content="https://gregoryvicent.com/LOGO_negative.png" />
+        <meta property="og:image" content="https://gregoryvicent.com/LOGO_negative_small.png" />
         <meta property="og:url" content="https://gregoryvicent.com/blog" />
         <meta property="og:site_name" content="gregoryvicent.com" />
 
         <meta name="twitter:title" content="Blog | Gregory Vicent" />
         <meta name="twitter:description" content="Gracias por mirar mi blog, confio en que encuentres algo que te interese entre los post que he escrito." />
-        <meta name="twitter:image" content="https://gregoryvicent.com/LOGO_negative.png" />
+        <meta name="twitter:image" content="https://gregoryvicent.com/LOGO_negative_small.png" />
         <meta name="twitter:site" content="@vicentgregory" />
         <meta name="twitter:creator" content="@vicentgregory" />
       </Head>
