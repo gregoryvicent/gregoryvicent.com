@@ -7,7 +7,7 @@
 html,
 body {  
   font-family: 'Ubuntu', sans-serif;
-  overflow-y: none;
+  overflow-x: hidden;
   background-color: #f8f8f8;
   scroll-behavior: smooth;
 }

@@ -1,21 +1,49 @@
 .nav {
+  width: 100%;
   position: fixed;
   height: 100%;
+  display: grid;
+  grid-template-columns: 10% 90%;
+}
+
+.nav_button {
+  grid-column: 1/2;
+  grid-row: 2/3;
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+
+.button {
+  width: 80px;
+  height: 80px;
+}
+
+.nav_id_1 {
+  grid-column: 2/3;
+}
+
+.nav_id_2 {
+  grid-column: 2/3;
+}
+
+.nav_id_3 {
+  grid-column: 2/3;
 }
 
 .nav_item {
   border: solid 1px rgb(192, 192, 192);
   border-radius: 10px;
-  width: 80%;
+  width: 250px;
   height: auto;
-  margin: 2vh 0;
+  margin: 2vh 1rem;
   padding: 1rem;
   cursor: pointer;
   transition: all .5s ease;
   background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .nav_item:hover {
@@ -29,32 +57,3 @@
   margin-top: 2vh;
 }
 
-.nav_active {
-  display: flex;
-  flex-direction: column;
-  border: solid 1px rgb(192, 192, 192);
-  border-radius: 10px;
-  width: 60%;
-  min-height: 25vh;
-  height: auto;
-  margin: 2vh auto;
-  padding: 1rem;
-  cursor: pointer;
-  transition: all .5s ease;
-  background-color: #fff;
-  display: flex;
-  box-shadow: 15px 15px 15px #000;
-  transition: all 1s ease;
-}
-
-@media (max-width: 900px) {
-  .nav_item {
-    width: 90%;
-  }
-}
-
-@media (max-width: 400px) {
-  .nav_active {
-    width: 80%;
-  }
-}
