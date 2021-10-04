@@ -29,6 +29,36 @@
   margin-right: -35vw;
 }
 
+.navMovil {
+  width: 100%;
+  background-color: #DF2E2E;
+  height: 7vh;
+  border-radius: 30px 30px 0 0;
+  box-shadow: 0 -5px 10px #000;
+  position: fixed;
+  margin-top: 93vh;
+  display: flex;
+  z-index: 200;
+}
+
+.navbar_movil {
+  z-index: 100;
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  position: fixed;
+  opacity: 0.8;
+  margin-top: -100vh;
+  transition: all linear .5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar_movil_active {
+  margin-top: 0vh;
+}
+
 .back_home {
   margin: 2rem;
   color: rgb(192, 192, 192);
@@ -40,3 +70,18 @@
   color: #DF2E2E;
 }
 
+@media (max-width: 1100px) {
+  .nav {
+    width: 70%;
+  }
+  
+  .nav_hidden {
+    margin-right: -55vw;
+  }
+}
+
+@media (max-width: 865px) {
+  .container {
+    flex-direction: column;
+  }
+}

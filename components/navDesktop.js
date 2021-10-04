@@ -1,7 +1,7 @@
 // Next.js imports
 import Link from 'next/link'
 // Styles imports
-import style from '../styles/nav.module.css'
+import style from '../styles/navDesktop.module.css'
 // Nav component that represent the right menu
 export default function NavDesktop({ handleNav, isActive }) {
   return (

@@ -704,3 +704,21 @@
   .hamburger--vortex-r.is-active .hamburger-inner::after {
     bottom: 0;
     transform: rotate(-90deg); }
+
+@media (max-width: 865px) {
+  .hamburger:hover {
+    opacity: 1; 
+  }
+  .hamburger.is-active:hover {
+    opacity: 1; 
+  }
+  .hamburger.is-active .hamburger-inner,
+  .hamburger.is-active .hamburger-inner::before,
+  .hamburger.is-active .hamburger-inner::after {
+    background-color: #fff; 
+  }
+  .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+    background-color: #fff;
+    transition-timing-function: ease; 
+  }
+}

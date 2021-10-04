@@ -5,6 +5,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 // My components imports
 import Header from './header'
+import  Nav from './nav'
 import NavDesktop from './navDesktop'
 import NavMovil from './navMovil'
 // Styles imports
@@ -14,6 +15,7 @@ export default function Layout({ children, home }) {
   const [screenDesktop, setScreenDesktop] = useState( true )
   const [switchNav, setSwitchNav] = useState( style_layout.nav_hidden )
   const [isActive, setIsActive] = useState( "" )
+  const [navBarMovil, setNavBarMovil] = useState( "" )
 
   const handleNav = () => {
     switchNav !== style_layout.nav_hidden
@@ -25,9 +27,19 @@ export default function Layout({ children, home }) {
       : setIsActive( "" )
   }
 
+  const handleNavMovil = () => {
+    isActive !== "is-active"
+      ? setIsActive( "is-active" )
+      : setIsActive( "" )
+
+    navBarMovil !== style_layout.navbar_movil_active
+      ? setNavBarMovil( style_layout.navbar_movil_active )
+      : setNavBarMovil( "" )
+  }
+
   useEffect(() => {
     const screenUpdate = () => {
-      window.innerWidth <= 700
+      window.innerWidth <= 865 
         ? setScreenDesktop( false )
         : setScreenDesktop( true )
     }
@@ -42,7 +54,12 @@ export default function Layout({ children, home }) {
   }, [])
   
   return(
-    <div > 
+    <div >
+      <div className={`${style_layout.navbar_movil} ${navBarMovil}`}>
+        <nav>
+          <Nav />
+        </nav>
+      </div>
       <div className={`${style_layout.container}`}>
 
         <Head>
@@ -79,8 +96,8 @@ export default function Layout({ children, home }) {
               </div>
             )
             : (
-                <div>
-                  <NavMovil /> 
+                <div className={style_layout.navMovil} >
+                  <NavMovil handleNavMovil={ handleNavMovil } isActive={ isActive } /> 
                 </div>
               )
         
