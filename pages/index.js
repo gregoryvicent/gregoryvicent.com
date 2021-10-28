@@ -109,15 +109,15 @@ export default function Home() {
             src="/img/mitfflix.png"
             title="Mitflix"
             image={styles.cardImage_1}
-            webSite={"https://gregory142000.github.io/Mittflix/"}
-            gitHub={"https://github.com/Gregory142000/Mittflix"}
+            webSite={"https://gregoryvicent.github.io/Mittflix/"}
+            gitHub={"https://github.com/gregoryvicent/Mittflix"}
           /> 
           <Card
             src="/img/gregoryvicent.png"
             title="Este sitio web"
             image={styles.cardImage_2}
             webSite={"https://gregoryvicent.com"}
-            gitHub={"https://github.com/Gregory142000/gregoryvicent.com"}
+            gitHub={"https://github.com/gregoryvicent/gregoryvicent.com"}
           /> 
         </div>
       </section>
