@@ -1,6 +1,6 @@
 # gregoryvicent.com
 
-**Puedes ver este proyecto en: [https://gregoryvicent.com](https://gregoryvicent.com)**
+**Puedes ver este proyecto en: [gregoryvicent-com.vercel.app/](gregoryvicent-com.vercel.app/)**
 
 ## Sobre este proyecto
 
