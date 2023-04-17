@@ -1,0 +1,34 @@
+{
+  "name": "gregoryvicent.com",
+  "version": "0.0.1",
+  "description": "Gregory Vicent's personal website.",
+  "main": "pages/index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gregoryvicent/gregoryvicent.com.git"
+  },
+  "keywords": [
+    "Gregory",
+    "Vicent",
+    "js",
+    "javascript",
+    "react",
+    "nextjs",
+    "website",
+    "reactjs"
+  ],
+  "author": "Gregory Vicent",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gregoryvicent/gregoryvicent.com/issues"
+  },
+  "homepage": "https://github.com/gregoryvicent/gregoryvicent.com#readme",
+  "dependencies": {
+    "next": "^13.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
