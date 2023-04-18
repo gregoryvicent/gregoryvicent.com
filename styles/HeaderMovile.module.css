@@ -1,0 +1,17 @@
+.HeaderMovile {
+  color: red
+}
+.HeaderMovileBoxIcon {
+  display: flex;
+  justify-content: end;
+}
+.HeaderMovileIcon {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+.HeaderMovileLine {
+  margin: 1rem;
+  color: #2b2b2b; 
+  border-radius: 50%;
+}

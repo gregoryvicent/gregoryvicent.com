@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  font-family: 'Chivo Mono', monospace;
 }
 *, *:before, *:after {
   box-sizing: inherit;

@@ -5,10 +5,10 @@ export default function PostOne(): JSX.Element {
   return (
     <main>
       <Head>
-	<title>First Post</title>
+	<title>Posts</title>
       </Head>
 
-      <h1>This is my first post</h1>
+      <h1>Proximamente</h1>
       <Link href="/">Go Back</Link>
     </main>
   )
