@@ -1,7 +1,7 @@
 import Link from "next/link"
 import Head from "next/head"
 
-export default function PostOne() {
+export default function PostOne(): JSX.Element {
   return (
     <main>
       <Head>
