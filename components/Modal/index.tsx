@@ -12,12 +12,12 @@ const Modal: React.FC<ModalInterface> = ({ isOpen, handleClick }) => {
       <div className={ styles.ModalBox }>
 	<ul className={ styles.ModalList }>
 	  <li>
-	    <Link href='/' className={ styles.ModalItem }>
+	    <Link onClick={ handleClick } href='/' className={ styles.ModalItem }>
 	      Home
 	    </Link> 
 	  </li>
 	  <li className={ styles.ModalItem }>
-	    <Link href='/blog' className={ styles.ModalItem }>
+	    <Link onClick={ handleClick } href='/blog' className={ styles.ModalItem }>
 	      Blog
 	    </Link> 
 	  </li>

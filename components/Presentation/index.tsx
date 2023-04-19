@@ -1,5 +1,11 @@
+import styles from '../../styles/Presentation.module.css'
+
 export default function Presentation(): JSX.Element {
   return(
-    <h2>I am Presentation</h2>
+    <div className={ styles.Presentation }>
+      <p className={ styles.PresentationText }>Hola, soy</p>
+      <h1 className={ styles.PresentationMyName }>Gregory Vicent</h1>
+      <p>Web Developer</p>
+    </div>
   )
 }

@@ -9,7 +9,7 @@ const HeaderMovile: React.FC<HandleClickInterface> = ({ handleClick }) => {
   return(
     <header>
       <div className={styles.HeaderMovileBoxIcon}>
-	<FontAwesomeIcon icon={faBars} className={styles.HeaderMovileIcon} onClick={ handleClick } />
+	<FontAwesomeIcon icon={ faBars } className={ styles.HeaderMovileIcon } onClick={ handleClick } />
       </div>
       <hr className={styles.HeaderMovileLine}/>
     </header>

@@ -1,0 +1,26 @@
+.Presentation {
+  margin: 1rem 0;
+  padding: 1rem;
+  color: #32ff00;
+}
+.PresentationMyName {
+  display: block;
+  white-space: nowrap;
+  border-right: 8px solid;
+  width: 15ch;
+  font-size: 1.6rem;
+  
+  animation: typing 2s steps(15), blink .5s infinite step-end alternate;
+  overflow: hidden;
+}
+.PresentationText {
+  margin-bottom: 0.5rem;
+}
+
+@keyframes typing {
+  from { width: 0; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent }
+}

@@ -5,10 +5,18 @@
   display: flex;
   justify-content: end;
 }
+
 .HeaderMovileIcon {
-  width: 35px;
-  height: 35px;
+  width: 45px;
+  height: 45px;
   cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 50%;
+  transition: all .3s ease;
+}
+.HeaderMovileIcon:hover {
+  background-color: #32ff00;
+  color: #1a1a1a;
 }
 .HeaderMovileLine {
   margin: 1rem;
