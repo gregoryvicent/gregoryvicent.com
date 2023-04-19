@@ -10,7 +10,7 @@ import Contacts from '../components/Contacts'
 import styles from '../styles/index.module.css'
 
 export default function index(): JSX.Element {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState<boolean>(false)
 
   function handleClick() {
     if(isOpen) {

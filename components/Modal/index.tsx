@@ -2,7 +2,9 @@ import Link from 'next/link'
 
 import styles from '../../styles/Modal.module.css'
 
-export default function Modal({ isOpen, handleClick }): JSX.Element {
+import ModalInterface from '../../interfaces/modalInterface'
+
+const Modal: React.FC<ModalInterface> = ({ isOpen, handleClick }) => {
   return(
     <div 
       className={`${ styles.Modal } ${ isOpen ? styles.ModalOpen : styles.ModalClose }`}
@@ -27,3 +29,5 @@ export default function Modal({ isOpen, handleClick }): JSX.Element {
     </div>
   )
 }
+
+export default Modal

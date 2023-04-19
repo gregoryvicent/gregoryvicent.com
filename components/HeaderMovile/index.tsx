@@ -3,7 +3,9 @@ import styles from '../../styles/HeaderMovile.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 
-export default function HeaderMovile({ handleClick }): JSX.Element {
+import HandleClickInterface from '../../interfaces/handleClickInterface'
+
+const HeaderMovile: React.FC<HandleClickInterface> = ({ handleClick }) => {
   return(
     <header>
       <div className={styles.HeaderMovileBoxIcon}>
@@ -13,3 +15,5 @@ export default function HeaderMovile({ handleClick }): JSX.Element {
     </header>
   )
 }
+
+export default HeaderMovile
