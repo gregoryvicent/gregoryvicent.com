@@ -7,7 +7,7 @@ import HandleClickInterface from '../../interfaces/handleClickInterface'
 
 const HeaderMovile: React.FC<HandleClickInterface> = ({ handleClick }) => {
   return(
-    <header>
+    <header className={ styles.HeaderMovile }>
       <div className={styles.HeaderMovileBoxIcon}>
 	<FontAwesomeIcon icon={ faBars } className={ styles.HeaderMovileIcon } onClick={ handleClick } />
       </div>

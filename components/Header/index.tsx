@@ -8,10 +8,10 @@ export default function Headers(): JSX.Element {
       <nav>
 	<ul className={styles.HeaderList}>
 	  <li><Link className={styles.HeaderItem} href="/" >Home</Link></li>
-	  <li><Link className={styles.HeaderItem} href="/blog" >Blog(proximamente)</Link></li>
+	  <li><Link className={styles.HeaderItem} href="/blog" >Blog</Link></li>
 	</ul>
       </nav>
-      <hr />
+      <hr className={ styles.HeaderLine } />
     </header>
   )
 }

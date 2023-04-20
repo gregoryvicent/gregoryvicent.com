@@ -31,12 +31,15 @@ const Layout: React.FC<ChildrenInterface> = ({ children }) => {
 	isOpen={ isOpen }	
 	handleClick={ handleClick }
       />
-      <main className={ styles.Main } >
+      <main className={ styles.LayoutMain } >
 	<Header />      
 	<HeaderMovile 
 	  handleClick={ handleClick }
 	/> 
 	{ children }
+        <footer className={ styles.LayoutFooter }>
+	  <p className={ styles.LayoutEmail }>gregoryvicent.dev@gmail.com</p>
+        </footer>
       </main>
     </>
   )

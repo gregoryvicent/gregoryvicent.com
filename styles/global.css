@@ -8,3 +8,23 @@ html {
   margin: 0;
 }
 
+@media(min-width: 700px) {
+  section {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+@media(min-width: 900px) {
+  section {
+    width: 60%;
+    margin: auto;
+  }
+}
+
+@media(min-width: 1200px) {
+  section {
+    width: 40%;
+    margin: auto;
+  }
+}

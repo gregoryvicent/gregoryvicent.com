@@ -1,8 +1,16 @@
-.Main {
+.LayoutMain {
   background-color: #1a1a1a;
   width: 100%;
   height: 100%;
   min-height: 100vh;
   padding: 1.5rem;
   color: #eaeaea;
+}
+.LayoutFooter {
+  margin-top: 5rem;
+}
+.LayoutEmail {
+  text-align: center;
+  font-weight: 100;
+  color: #616161;
 }

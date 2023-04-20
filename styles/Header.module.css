@@ -5,9 +5,36 @@
 .HeaderList {
   display: flex;
   list-style: none;
+  justify-content: end;
+  margin: 1rem 0;
 }
 .HeaderItem {
-  text-decoration: none;
   color: #eaeaea;
+  margin: 1rem;
+  transition: color .5s ease;
 }
-.HeaderLine {}
+.HeaderItem:hover {
+  color: #32ff00;
+}
+.HeaderLine {
+  margin: 1rem;
+  border-radius: 50%;
+  color: #2b2b2b;
+}
+
+@media(min-width: 500px) {
+  .Header {
+    display: block;
+  }
+}
+
+@media(min-width: 900px) {
+  .Header {
+    width: 80%;
+    margin: auto;
+  }
+  .HeaderList {
+    width: 80%;
+    margin: auto;
+  }
+}

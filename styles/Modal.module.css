@@ -53,3 +53,9 @@
   height: 65px;
   border-radius: 50%;
 }
+
+@media(min-width: 500px) {
+  .Modal {
+    display: none;
+  }
+}

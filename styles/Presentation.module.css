@@ -24,3 +24,22 @@
 @keyframes blink {
   50% { border-color: transparent }
 }
+
+@media(min-width: 500px) {
+  .Presentation {
+    margin: 2rem 0;
+    padding: 2rem;
+  }
+  .PresentationMyName {
+    font-size: 2rem;
+  }
+  .PresentationText {
+    margin-bottom: 1rem;
+  }
+}
+
+@media(min-width: 900px) {
+  .Presentation {
+    margin: 3rem 0;
+  }
+}
