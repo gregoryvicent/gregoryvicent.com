@@ -1,0 +1,24 @@
+.WorkTechIconsBox {
+    margin: 4rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 30px;
+}
+
+.WorkTechIconBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.WorkTechIcon {
+    width: 50px;
+}
+
+.WorkTechIconName {
+    font-size: 0.9rem;
+    font-weight: 100;
+    margin-top: 0.5rem;
+}

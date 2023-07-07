@@ -17,10 +17,15 @@ const Modal: React.FC<ModalInterface> = ({ isOpen, handleClick }) => {
 	    </Link> 
 	  </li>
 	  <li className={ styles.ModalItem }>
+		<Link onClick={ handleClick } href='/work' className={ styles.ModalItem }>
+			Trabajemos
+		</Link>
+	  </li>
+	  {/* <li className={ styles.ModalItem }>
 	    <Link onClick={ handleClick } href='/blog' className={ styles.ModalItem }>
 	      Blog
 	    </Link> 
-	  </li>
+	  </li> */}
 	  <li className={`${ styles.ModalIconClose } ${ styles.ModalItem }`} onClick={ handleClick } >
 	    X
 	  </li>

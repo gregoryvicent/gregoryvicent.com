@@ -1,0 +1,48 @@
+.ProyectBox {
+    border: solid 1px #313131;
+    border-radius: 10px;
+    margin: 2.5rem 1rem;
+    padding: 1rem;
+    transition: .3s all ease;
+}
+
+.ProyectBox:hover {
+    box-shadow: 0px 0px 30px #32ff00;
+}
+
+.ProyectBoxTitle {
+    font-size: 1.1rem;
+}
+
+.ProyectBoxInfo {
+    margin: 1.5rem 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
+}
+
+.ProyectBoxImage {
+    margin: 1rem auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.ProyectBoxText {
+    text-align: center;
+}
+
+.ProyectBoxLinks {
+    width: 100%;
+    display: grid;
+}
+
+.ProyectBoxLink {
+    color: #32ff00;
+    width: 100%;
+    text-align: right;
+    transition: .5s all ease;
+}
+.ProyectBoxLink:hover {
+    color: #e2e2e2;
+}

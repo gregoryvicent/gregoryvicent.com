@@ -1,0 +1,23 @@
+.WorkPresentationImageBox {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
+    margin-top: 3rem;
+}
+.WorkPresentationImage {
+    width: 150px;
+    height: 190px;
+    border-radius: 5px;
+    justify-self: center;
+}
+.WorkPresentationImageName {
+    color: #8f8f8f;
+    font-weight: 200;
+    text-align: center;
+}
+.WorkPresentationEmail {
+    font-size: 0.9rem;
+    color: #32ff00;
+    text-align: center;
+    margin: 5rem 0;
+}

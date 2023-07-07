@@ -1,0 +1,18 @@
+.lineH {
+    margin: 1rem;
+    color: #2b2b2b;
+    border-radius: 50%;
+}
+.titles {
+    font-size: 1.7rem;
+    margin: 1.5rem 0;
+    margin-top: 3rem;
+    padding: 1rem;
+    color: #32ff00;
+}
+.textNormal {
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin: 1rem;
+    line-height: 30px;
+}

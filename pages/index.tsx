@@ -8,15 +8,15 @@ export default function index(): JSX.Element {
   return (
     <>
       <Head>
-	<title>Home | Gregory Vicent</title>
+	      <title>Home | Gregory Vicent</title>
       </Head>
       <Layout>
-	<section>
-	  <Presentation />
-	</section>
-	<section>
-	  <Contacts />
-	</section>
+	      <section>
+	        <Presentation />
+	      </section>
+	      <section>
+	        <Contacts />
+	      </section>
       </Layout>
     </>
   )

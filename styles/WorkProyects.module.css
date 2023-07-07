@@ -1,0 +1,33 @@
+.WorkProyectsExperienseSection {
+    margin: 4rem 1rem;
+}
+
+.WorkProyectsExperienseTitle {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    margin-top: 3rem;
+    color: #32ff00;
+}
+
+.WorkProyectsExperienseLine {
+    margin: 1rem;
+    color: #4b4b4b;
+    border-radius: 50%;
+}
+
+.WorkProyectsExperienseSubtitle {
+    font-weight: 900;
+    font-size: 1.1rem;
+}
+
+.WorkProyectsExperienseText {
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.WorkProyectsExperienseYears {
+    font-weight: 100;
+    margin-left: 1rem;
+}
